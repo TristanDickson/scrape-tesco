@@ -6,8 +6,8 @@ import urllib3
 from bs4 import BeautifulSoup as BS
 
 
-def product_sort(e):
-    return e['cost_per_vol']
+def product_sort(product):
+    return product['cost_per_vol']
 
 
 def get_page(site, page_num=None):
