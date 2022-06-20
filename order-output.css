@@ -1,0 +1,50 @@
+table {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid;
+}
+td ,
+th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid;
+}
+th {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #c4b1d8;
+}
+tr:nth-child(even) {
+    background-color: #DDDDDD;
+}
+table.blacktableborders,
+table.blacktableborders th,
+table.blacktableborders td {
+  border: 1px solid;
+}
+table.fullwidthtable,
+table.fullwidthtable th,
+table.fullwidthtable td {
+  border: 1px solid black;
+  width: 100%;
+}
+body.darkpagetheme table.fullwidthtable,
+body.darkpagetheme table.fullwidthtable th,
+body.darkpagetheme table.fullwidthtable td {
+  border: 1px solid;
+}
+table.bordercollapsetable,
+table.bordercollapsetable th,
+table.bordercollapsetable td {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+table.onlytableborder {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}

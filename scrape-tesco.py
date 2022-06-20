@@ -2,7 +2,6 @@ import time
 import math
 import re
 import requests
-import urllib3
 from bs4 import BeautifulSoup as BS
 
 
